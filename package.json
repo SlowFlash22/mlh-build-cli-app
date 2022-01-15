@@ -1,0 +1,31 @@
+{
+  "name": "sloflashcli",
+  "version": "1.0.4",
+  "description": "An MLH learn CLI",
+  "main": "./bin/index.js",
+  "bin": {
+    "sloflashcli": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SlowFlash22/mlh-build-cli-app.git"
+  },
+  "keywords": [
+    "cli",
+    "mlh",
+    "learn"
+  ],
+  "author": "slowflash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SlowFlash22/mlh-build-cli-app/issues"
+  },
+  "homepage": "https://github.com/SlowFlash22/mlh-build-cli-app#readme",
+  "dependencies": {
+    "boxen": "^6.2.1",
+    "chalk": "4.1.2"
+  }
+}
